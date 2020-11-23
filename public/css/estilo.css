@@ -1,0 +1,75 @@
+/*
+* 
+* @author Leandro de Paula
+*/
+
+/*Layout
+------------------------*/
+
+
+/*Barra de Navegação
+------------------------*/
+
+
+
+/*Capa*/
+
+
+/*Estrutura de Conteudos
+------------------------*/
+
+/*Formatação do espaçamento*/
+
+
+/*Espaçamento das imagens*/
+
+
+/*Rodape
+------------------------*/
+
+/*Tipografia
+------------------------*/
+
+/*Midia cares
+------------------------*/
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	.btn-custom{
+		margin: 10px 15px;
+	}
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px){
+	h1{
+		font-size: 3em;
+	}
+	.btn-custom{
+		margin: 10px 15px;
+	}
+}
+
+/* Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	h1{
+		font-size: 4em;
+	}
+}
+
+/* Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	h1{
+		font-size: 5em;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	h1{
+		font-size: 6em;
+	}
+}
+
+
+/* Extra large devices (large desktops)*/
+/* No media query since the extra-large breakpoint has no upper bound on its width*/
