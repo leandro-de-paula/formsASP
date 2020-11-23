@@ -9,7 +9,7 @@ Instagram: https://www.instagram.com/leandrodepaula12/
 
 **FormsASP**
 
-Project with Frontend in Bootstrap, the main objective is to perform basic commands in the MySQL database, using ASP in the backend to do CRUD.
+Project with Frontend in Bootstrap, the main objective is to perform basic commands in the MySQL database, using ASP Classic - VBScript in the backend to do CRUD.
 
 **Database structure**
 
