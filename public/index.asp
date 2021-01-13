@@ -50,7 +50,7 @@ end select
         <nav class="navbar navbar-expand-sm navbar-light bg-primary"><!-- Barra de Navegação -->
             <div class="container">
                 <div class="row">
-                    <form class="mt-4 mb-4" action="../../formsASP/src/result.asp" method="get">
+                    <form class="mt-4 mb-4" action="../../formsASP/src/resultSearch.asp" method="get">
                         <div class="input-group input-group-lg">
                             <input type="text" class="form-control" name="search" id="search" placeholder="Nome:">
                             <div class="input-group-append">
