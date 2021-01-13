@@ -80,9 +80,9 @@ end select
         <div class="container">
             <div class="clientFormSubmit">
                 <div class="row justify-content-center">
-                    <div class="col-md-5">
+                    <div class="col-md-6">
                         <form class="d-flex" action="../../formsASP/src/receiving.asp" method="post">
-                            <div class="form-group">
+                            <div class="form-group col-12">
                                 <div class="align-self-center">
                                     <br>
                                     <h2>Adicionar Novo</h2>
