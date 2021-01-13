@@ -14,6 +14,7 @@ select case trim(ucase(actionStatus))
     statusMessage = ""
 end select
 
+'search
 %>
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -48,13 +49,23 @@ end select
     <header><!-- Incio do cabeçalho -->
         <nav class="navbar navbar-expand-sm navbar-light bg-primary"><!-- Barra de Navegação -->
             <div class="container">
-                <div class="mt-4 mb-4">
-                    <a href="../../formsASP/src/result.asp"
-                    class="btn btn-outline-light"
-                    rel="noopener noreferrer">
-                    Listar Cadastrados
-                    </a>
+                <div class="row">
+                    <form class="mt-4 mb-4" action="../../formsASP/src/result.asp" method="get">
+                        <div class="input-group input-group-lg">
+                            <input type="text" class="form-control" name="search" id="search" placeholder="Nome:">
+                            <div class="input-group-append">
+                                <button type="submit" class="btn btn-outline-light" id="send">Buscar</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
+                <div class="mt-4 mb-4">
+                  <a href="../../formsASP/src/result.asp"
+                  class="btn btn-outline-light"
+                  rel="noopener noreferrer">
+                  Listar Cadastrados
+                </a>
+              </div>
             </div>
         </nav><!-- Fim da Barra de Navegação -->
     </header><!-- Fim do cabeçalho-->
