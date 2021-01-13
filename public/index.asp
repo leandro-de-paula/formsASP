@@ -59,6 +59,13 @@ end select
                         </div>
                     </form>
                 </div>
+                <div class="mt-4 mb-4">
+                  <a href="../../formsASP/src/result.asp"
+                  class="btn btn-outline-light"
+                  rel="noopener noreferrer">
+                  Listar Cadastrados
+                </a>
+              </div>
             </div>
         </nav><!-- Fim da Barra de Navegação -->
     </header><!-- Fim do cabeçalho-->
